@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+
+:root {
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+    --White : hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: var(--Light-grey);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: xx-large;
+}
+
+.container {
+    background-color: var(--Off-white);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px 10px 50px 10px;
+}
+
+.entry {
+    display: flex;
+    gap: 100px;
+    
+}
+
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
